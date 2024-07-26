@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Slabo 27px", serif;
+}
+#navbar{
+    background: rgb(9 73 120);
+    
+}
+.nav-item .nav-link{
+    color: white;
+}
+.nav-item{
+    font-size: 30px;
+}
+
+
+#main{
+    background-image: url('./images/home7.avif');
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#welcome{
+   
+    padding-top: 12%;
+    padding-left: 5%;
+}
+#welcome button{
+    color: white;
+}
+#welcome button:hover{
+    background-color: rgb(9 73 120);
+    /* color: coral; */
+}
+
+#welcome h4{
+    color: white;
+    font-size: 30px;
+}
+#welcome h1{
+    color:white;
+    font-size: 100px;
+}
+@media( max-width:600px){
+    #main{
+        background-position: bottom;
+    }
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    }
+}
+#black{
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+#package{
+    background-color:rgb(9 73 120);
+    
+}
+#package .btn{
+    background-color: rgb(9 73 120);
+    color: white;
+}
+#package .btn:hover {
+    background-color: white;
+    color: rgb(9 73 120);
+}
+#package h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+/* .card{
+    height: 450px;
+} */
+ 
+
+.container {
+    margin-top: 100px;
+    background-color: #92b4ce;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+.container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form input styles */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    height: calc(2.25rem + 2px);
+    font-size: 0.875rem;
+}
+
+/* Textarea height adjustment */
+textarea.form-control {
+    height: auto;
+}
+
+/* Submit button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+#gallery{
+    margin: 40px 20px 0 50px;
+}
+#gallery img{
+    border-radius: 5px;
+}
+#center{
+margin-left: -10px
+
+}
+#right{
+    margin-left: -10px
+ 
+}
+
+
